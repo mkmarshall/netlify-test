@@ -103,6 +103,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/netlify-test",
+            "netlifyToken": "hEhq7phskERrnT71H7NLZx7aJ7GrpAUpv2glwWwg6uo",
+            "siteId": ""
+          }
         }
       }
     }
